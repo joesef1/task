@@ -24,7 +24,7 @@ body {
 
 .forms-container{
   margin: 20px auto ;
-  width: 50%;
+  width: 60%;
 }
 @media (min-width: 768px) {
   /* Styles for screens larger than 768px */
@@ -209,7 +209,6 @@ p {
 
 .card {
   height: 220px;
-  max-width: 300px;
   min-width: 200px;
   padding: 1rem;
   background-color: #ffffff;
@@ -242,11 +241,15 @@ p {
   align-items: center;
   color: white;
   font-size: 20px;
+  
 }
+
+
 .card-content{
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+
 }
 
 .title {
@@ -320,7 +323,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   padding: 1.5rem;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 8px;
   background-color: #fff;
   transition: border-color 0.3s ease, transform 0.3s ease;
@@ -424,4 +427,28 @@ p {
 
 .thank-you-message a:hover {
   text-decoration: underline;
+}
+
+/*  */
+
+
+/* Responsive styles */
+
+@media (max-width: 900px) {
+  .side-bar-container{
+    display: none;
+  }
+  .forms-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+.card {
+  flex-direction: row;
+}
+
+.step-main-content{
+  height: 550px;
+}
 }

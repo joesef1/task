@@ -8,8 +8,8 @@ export const Plans = () => {
   };
 
   return (
-<div className="flex gap-6 w-full">
-  <div
+<div className="flex gap-6 w-full flex-col sm:flex-row ">
+<div
     className={`card flex-1 ${selectedPlan === "Arcade" ? "selected" : ""}`}
     onClick={() => handleSelect("Arcade")}
   >
