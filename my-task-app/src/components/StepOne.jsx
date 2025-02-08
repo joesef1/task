@@ -10,9 +10,9 @@ export function StepOne({ nextStep }) {
       />
 
       {/* Form Content */}
-      <form className="mt-6">
+      <form className="">
 
-        <div className="inputs-container">
+        <div className="step-main-content  py-6">
         <label htmlFor="name" className="input-label">
           Name
         </label>
@@ -46,7 +46,7 @@ export function StepOne({ nextStep }) {
         {/* Next Button */}
         <button
           onClick={nextStep}
-          className=" next-step-btn text-white font-semibold rounded-md py-2 px-4  transition duration-200 float-right"
+          className="mt-6 next-step-btn text-white font-semibold rounded-md py-2 px-4  transition duration-200 float-right"
         >
           Next Step
         </button>

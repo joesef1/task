@@ -12,10 +12,8 @@ export function StepTwo({ nextStep, prevStep }) {
       />
 
       {/* Plan Options */}
-      
 
-       
-    <div className="pricing-container mt-6 space-y-4 inputs-container flex-col">
+  <div className="pricing-container mt-6 space-y-4 step-main-content py-6 flex-col">
   <Plans />
 
 
