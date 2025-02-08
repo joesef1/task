@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
 export const Plans = () => {
-  const [selectedPlan, setSelectedPlan] = useState("Arcade"); // Default plan
+  const [selectedPlan, setSelectedPlan] = useState("Arcade");
 
   const handleSelect = (plan) => {
-    setSelectedPlan(plan); // Update the selected plan
+    setSelectedPlan(plan); 
   };
 
   return (
-<div className="flex gap-6 w-full flex-col sm:flex-row ">
+<div className="flex gap-6 w-full flex-col sm:flex-row py-6">
 <div
     className={`card flex-1 ${selectedPlan === "Arcade" ? "selected" : ""}`}
     onClick={() => handleSelect("Arcade")}

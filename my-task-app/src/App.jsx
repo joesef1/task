@@ -7,7 +7,7 @@ export default function App() {
 
   const nextStep = () => {
     setCurrentStep((prev) => Math.min(prev + 1, 4));
-    console.log("Step", currentStep + 1); // Log the new step after clicking
+    console.log("Step", currentStep + 1); 
   };
   
   ;

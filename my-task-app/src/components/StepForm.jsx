@@ -14,7 +14,6 @@ import { StepFour } from "./StepFour";
   
     return (
         <>
-      {/* <div className=" w-[50%] m-auto "> */}
       <div className=" forms-container">
         {steps[currentStep]}
       </div>
